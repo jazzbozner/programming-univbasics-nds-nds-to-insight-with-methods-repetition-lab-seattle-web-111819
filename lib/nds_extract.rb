@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
-
+#binding.pry 
 def directors_totals(source)
   result = {}
   director_index = 0
